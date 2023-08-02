@@ -1,0 +1,164 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeckRepo - About</title>
+    <link rel="stylesheet" href="style/color.css">
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/about.css">
+    <link rel="stylesheet" href="style/card.css">
+    <link rel="stylesheet" href="style/transitions.css">
+</head>
+<body>
+    <div id="header-container">
+        <header>
+            <a href="index.html"><h2>DeckRepo</h2></a>
+            <a href="about.html">About</a>
+            <a href="create.html">Create</a>
+        </header>
+        <div id="header-outline"></div>
+    </div>
+    <div class="fullscreen" id="fullscreen-img-cont">
+        <img id="fullscreen-img">
+        <button class="x" id="x"><img src="static/svg/x.svg" alt="escape"></button>
+    </div>
+    <div id="about-content">
+        <div id="slide-0" class="slide">
+            <div class="overlay">
+                <div class="slide-content">
+                    <div id="slide-0-title">
+                        <h1 id="slide-0-0" class="off-screen grow fast">Welcome to</h1>
+                        <h1 id="slide-0-1" class="off-screen grow">DeckRepo</h1>
+                        <p id="slide-0-2" class="off-screen slow">DeckRepo is a project dedicated towards promoting and facilitating the use of flash cards as a study technique among students.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="slide-1" class="slide">
+            <div class="overlay">
+                <div class="slide-content">
+                    <h1 class="off-screen">How do we revise?</h1>
+                    <hr id="slide-1-hr" class="off-screen">
+                    <p class="off-screen">Most of us are familiar with the "read and re-read" study technique. However, this is ineffective for a couple of reasons:</p>
+                    <ul>
+                        <li class="off-screen slide">We tend to lose focus due to lack of engagement with the material</li>
+                        <li class="off-screen slide">Recognising the material and recalling it involves different connections in the brain</li>
+                    </ul>
+                    <p class="off-screen">To study more effectively, we have to use a new technique: <b>active recall.</b></p>
+                </div>
+            </div>
+        </div>
+        <div id="slide-2" class="slide">
+            <div class="overlay">
+                <p class="attribution"><a href="https://www.freepik.com/free-ai-image/glowing-synapse-multi-colored-neural-communication-abstract-design-generated-by-ai_41283933.htm#query=brain&position=12&from_view=search&track=sph">Image By vecstock</a></p>
+                <div class="slide-content">
+                    <h1 class="off-screen">Active recall</h1>
+                    <hr class="off-screen">
+                    <p class="off-screen">Active recall refers to the action of retrieving information from memory, without referring to a copy of the information. It is surprisingly effective in information retention.</p>
+                </div>
+            </div>
+        </div>
+        <div id="slide-3" class="slide">
+            <div class="overlay">
+                <div class="slide-content">
+                    <h1 class="off-screen">Flash cards</h1>
+                    <div class="off-screen slow">
+                        <div id="cards-desc">
+                            <p>Flash cards are excellent for active recall. They are comprised of a cue on the front, and the content to memorise on the back. You can flip them over as many times as you want to test yourself or check back on your knowledge.<br><br>On DeckRepo, you'll be able to upload your own text and images onto flash cards.</p>
+                            <div class="card-outer">
+                                <div class="card" id="about-card">
+                                    <div class="card-front">
+                                        <div class="card-overlay">
+                                            <div class="card-text">
+                                                <div class="card-text-bound">
+                                                    You'll be able to customise the text content on the cards. Click on this one to flip it!
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-back">
+                                        <div class="card-overlay">
+                                            <div class="half-card">
+                                                <div class="card-image">
+                                                    <img src="static/about/starrynight.jpg" alt="demo image">
+                                                </div>
+                                            </div>
+                                            <div class="half-card">
+                                                <div class="card-text">
+                                                    <!-- <div class="card-text-bound"> -->
+                                                        You may also click on the images to view them full screen. Also, don't worry if it's too much text, it's all scrollable.
+                                                    <!-- </div> -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="slide-4" class="slide">
+            <div class="overlay">
+                <p class="attribution">Photo by <a href="https://unsplash.com/@florianolv?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Florian Olivo</a> on <a href="https://unsplash.com/photos/4hbJ-eymZ1o?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
+                <div class="slide-content off-screen">
+                    <h1>Development stages</h1>
+                    <p>I plan to further develop this idea further in the future as this version is mostly meant to be a prototype.</p>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th id="table-stage">Stage</th>
+                                <th>Description</th>
+                                <th class="table-month">2023 Aug</th>
+                                <th class="table-month">Sept</th>
+                                <th class="table-month">Oct</th>
+                                <th class="table-month">Nov</th>
+                                <th class="table-month">Dec</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Rewrite</td>
+                                <td></td>
+                                <td colspan="2">
+                                    <div id="gantts-red" class="gantts"></div>
+                                </td>
+                                <td colspan="3"></td>
+                            </tr>
+                            <tr>
+                                <td>Basic security and tech stack</td>
+                                <td>Login system, AWS, etc.</td>
+                                <td colspan="3">
+                                    <div id="gantts-yellow" class="gantts"></div>
+                                </td>
+                                <td colspan="2"></td>
+                            </tr>
+                            <tr>
+                                <td>Additional features</td>
+                                <td>Different views, turn decks into mind-maps, spaced repetition algorithms, etc.</td>
+                                <td colspan="1"></td>
+                                <td colspan="3">
+                                    <div id="gantts-green" class="gantts"></div>
+                                </td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Alpha release and testing</td>
+                                <td>Second deployment, with a bit more finality</td>
+                                <td colspan="3"></td>
+                                <td colspan="2">
+                                    <div id="gantts-blue" class="gantts"></div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script/card.js"></script>
+    <script src="script/about.js"></script>
+</body>
+</html>
